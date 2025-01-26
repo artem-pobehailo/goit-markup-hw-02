@@ -4,6 +4,7 @@ body {
   color: #434455;
 }
 .logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -13,12 +14,6 @@ body {
 }
 .studio {
   color: #2e2f42;
-}
-.header {
-  border-bottom: 1px solid #e7e9fc;
-  width: 1440px;
-  height: 72px;
-  background: #fff;
 }
 
 ul {
@@ -52,10 +47,10 @@ address {
 .link-adress:focus {
   color: #404bbf;
 }
-h1 {
+.banner-main {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -77,6 +72,7 @@ h1 {
 .button:focus {
   background-color: #404bbf;
 }
+
 .title .text-title {
   font-weight: 500;
   font-size: 20px;
@@ -90,13 +86,14 @@ h1 {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-h2 {
+.banner {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .team {
   background-color: #f4f4fd;
@@ -115,7 +112,9 @@ h2 {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
+.portfolio {
+  background-color: #fff;
+}
 .portfolio .name {
   font-weight: 500;
   font-size: 20px;
@@ -141,9 +140,10 @@ h2 {
 }
 
 .studio-footer {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
