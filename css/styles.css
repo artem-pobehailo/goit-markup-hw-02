@@ -98,7 +98,7 @@ address {
 .team {
   background-color: #f4f4fd;
 }
-.team .pib {
+.pib {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -106,15 +106,16 @@ address {
   text-align: center;
   color: #2e2f42;
 }
-.team .position {
+.position {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.portfolio-section {
-  background-color: #ffffff;
+.team-section {
+  background-color: #fff;
 }
+
 .portfolio-section .portfolio-name {
   font-weight: 500;
   font-size: 20px;
