@@ -1,4 +1,4 @@
-.web {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -24,8 +24,8 @@
 }
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #fff;
   color: #434455;
-  background: #fff;
 }
 ul {
   list-style-position: none;
@@ -64,28 +64,21 @@ h1 {
   color: #fff;
 }
 .business {
-  width: 1440px;
-  height: 600px;
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 
 .button {
-  cursor: pointer;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 .title .text-title {
   font-weight: 500;
@@ -99,11 +92,6 @@ h1 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
-}
-.title {
-  width: 1440px;
-  height: 344px;
 }
 h2 {
   font-weight: 700;
@@ -114,9 +102,7 @@ h2 {
   color: #2e2f42;
 }
 .team {
-  width: 1440px;
-  height: 732px;
-  background: #f4f4fd;
+  background-color: #f4f4fd;
 }
 .team .pib {
   font-weight: 500;
@@ -131,13 +117,8 @@ h2 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
-  color: #434455;
 }
-.portfolio {
-  width: 1440px;
-  height: 1240px;
-}
+
 .portfolio .name {
   font-weight: 500;
   font-size: 20px;
@@ -150,12 +131,9 @@ h2 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 .footer {
-  width: 1440px;
-  height: 312px;
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 .footer .referal {
   font-weight: 400;
