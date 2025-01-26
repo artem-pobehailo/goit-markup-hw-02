@@ -112,17 +112,17 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.port-folio {
-  background-color: #fff;
+.portfolio-section {
+  background-color: #ffffff;
 }
-.port-folio .name {
+.portfolio-section .portfolio-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.port-folio .port-folio-app {
+.portfolio-section .portfolio-app {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
