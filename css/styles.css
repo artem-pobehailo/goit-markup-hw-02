@@ -17,7 +17,7 @@ body {
 }
 
 ul {
-  list-style-position: none;
+  list-style: none;
 }
 a {
   text-decoration: none;
